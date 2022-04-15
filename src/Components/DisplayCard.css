@@ -1,0 +1,25 @@
+* {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 10px; */
+  align-items: flex-start;
+  /* padding: 30px; */
+  color: blue;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.right_side i {
+  font-size: 1.2rem;
+}
+.right_side i:hover {
+  cursor: pointer;
+}

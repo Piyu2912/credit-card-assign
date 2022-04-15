@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+}
+.main input {
+  width: 100px;
+  margin-left: 5px;
+  padding: 10px;
+  border: 2px solid rgb(114, 112, 112);
+  color: blue;
+  border-radius: 5px;
+}
+.main input:focus {
+  outline: none !important;
+  border: 2px solid lightblue;
+  box-shadow: 0 0 10px #719ece;
+}
